@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stream Outline - Promotional Plan (GROUP3)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- <a href="#" class="logo">LOGO</a> -->
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#sec">About</a></li>
+        <li><a href="#stream-outline">Stream</a></li>
+        <li><a href="#">Socials</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="images/stars.png" id="stars">
+      <img src="images/moon.png" id="moon">
+      <img src="images/mountains_behind.png" id="mountains_behind">
+      <h2 id="text">Insomniacs Talk</h2>
+      <a href="#" id="btn">Explore</a>
+      <img src="images/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+		<div class="about-us-text">
+		  <h2>About Us</h2>
+		  <p>
+			We are Lifelabs group 3 from B02-Passion-10-2, we are livestreamers who aim to promote healthy sleep through livestreaming our disscussions about 
+			sleep deprivation and it's effects. We will discuss the personal experiences of fellow APEC students with sleep deprivation, how it has affected 
+			them, and how they cope with. We highly encourage everyone who is experiencing sleep deprivation to watch our streams to learn about the dangers 
+			of the lack of sleep and how this may cause changes to your body. Getting a good night's rest is often an overlooked part of health and we believe 
+			that it should not be overlooked and should be taken seriously.
+		  </p>
+		</div>
+		<div class="about-us-img">
+			<img src="IMAGES/Streaming.png">
+		</div>
+    </div>
+	<div class="sec2" id="stream-outline">
+		<div class="steam-outline-table">
+			<table style="width:100%">
+			  <tr>
+				<th>Time</th>
+				<th>Topic</th>
+				<th>Activity</th>
+				<th>Time Allotment</th>
+				<th>Screen</th>
+				<th>Audio</th>
+			  </tr>
+			  <tr>
+				<td>10:00PM to 10:20PM</td>
+				<td>Sleep Facts</td>
+				<td>Ice Breaker</td>
+				<td>20min</td>
+				<td>Pictures</td>
+				<td>Background Music w/Mic</td>
+			  </tr>
+			  <tr>
+				<td>10:20PM to 10:40PM</td>
+				<td>Sleep Deprivation</td>
+				<td>Introducing the guest(s)</td>
+				<td>16min</td>
+				<td>Stream layout</td>
+				<td>w/ Mics</td>
+			  </tr>
+			  <tr>
+				<td>11:00PM to 11:20PM</td>
+				<td>Academic talk</td>
+				<td>Casual talk</td>
+				<td>20</td>
+				<td>Stream layout</td>
+				<td>w/ Mics</td>
+			  </tr>
+			  <tr>
+				<td>11:25PM to 11:50PM</td>
+				<td>Experience from lack of sleep</td>
+				<td>Casual talk/Discussion</td>
+				<td>25min</td>
+				<td>Stream layout</td>
+				<td>w/ Mics</td>
+			  </tr>
+			  <tr>
+				<td>12:00AM to 12:30AM</td>
+				<td>Effects on it on school</td>
+				<td>Q &amp; A</td>
+				<td>30min</td>
+				<td>Stream layout</td>
+				<td>w/ Mics</td>
+			  </tr>
+			  <tr>
+				<td>1:00M to 2:50AM</td>
+				<td>Sleep facts + Personal stories</td>
+				<td>Conclusion + Casual talk</td>
+				<td>100min</td>
+				<td>Stream layout</td>
+				<td>w/ Mics</td>
+			  </tr>
+			</table>
+		</div>
+		<div class="stream-outline-text">
+			<h2>Stream Outline</h2>
+			<p>
+			This is our stream outline which shows you the general and specific activities we plan on doing on our livestreams. As you can see most of
+			our activities are related to sleep, and as you can see our stream starts late at night as it aligns with our theme which is late night show.
+			</p>
+		</div>
+	</div>
+	<div class="sec3" id="promotional-plan">
+
+	</div>
+
+    <script>
+      let stars = document.getElementById('stars');
+      let moon = document.getElementById('moon');
+      let mountains_behind = document.getElementById('mountains_behind');
+      let text = document.getElementById('text');
+      let btn = document.getElementById('btn');
+      let mountains_front = document.getElementById('mountains_front');
+      let header = document.querySelector('header');
+      
+      window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.05 + 'px';
+        mountains_behind.style.top = value * 0.5 + 'px';
+        mountains_front.style.top = value * 0 + 'px';
+        text.style.marginRight = value * 4 + 'px';
+        text.style.marginTop = value * 1.5 + 'px';
+        btn.style.marginTop = value * 1.5 + 'px';
+        header.style.top = value * 0.5 + 'px';
+      })
+    </script>
+  </body>
+</html>
