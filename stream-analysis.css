@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,700&display=swap');
+
 
 *{
   margin: 0;
@@ -8,11 +9,13 @@
   scroll-behavior: smooth;
 }
 
+
 body
 {
   min-height: 100vh;
   background: linear-gradient(#2b1055, #7597de, #2b1055);
 }
+
 
 header
 {
@@ -29,7 +32,7 @@ header
 header .logo
 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 7000;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
@@ -59,66 +62,167 @@ header ul li a.active
   color: #2b1055;
 }
 
-main.title {
-	display: flex;
-	justify-content: center;
-	font-size: 8rem;
-	padding-top: 5%;
-	padding-bottom: 15%;
-	color: whitesmoke;
-    background: linear-gradient(#1c0522, #2b1055, #1c0522);
-}
 
 section {
-	color:whitesmoke;
-	display: block;
-	font-size: 1.5rem;
-	height: auto;
-	padding: 3% 20% 10% 20%;
+        color:whitesmoke;
+        display: block;
+        font-size: 1.5rem;
+        height: auto;
+        padding: 3% 20% 10% 20%;
 }
+
 
 section > p {
-	background: none;
+        background: none;
 }
+
 
 section > h1 {
-	font-size: 4rem;
-	text-align: center;
-	padding: 0 0 2% 0;
+        font-size: 4rem;
+        text-align: center;
+        padding: 0 0 2% 0;
 }
+
 
 .stream-summary {
-	background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
+        background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
 }
+
 
 .things-that-went-well {
-	background: linear-gradient(#2b1055, #2b1055, #2b1055, #1c0522);
+        background: linear-gradient(#2b1055, #2b1055, #2b1055, #1c0522);
 }
+
 
 .areas-of-opportunity{
-	background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
+        background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
 }
+
 
 .level-of-engagement {
-	background: linear-gradient(#2b1055, #2b1055, #2b1055, #1c0522);
+        background: linear-gradient(#2b1055, #2b1055, #2b1055, #1c0522);
 }
+
 
 .viewership-status {
-	background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
+        background: linear-gradient(#1c0522, #1c0522, #1c0522, #2b1055);
 }
+
 
 .appendix {
-	background: #2b1055;
+        background: #2b1055;
 }
+
 
 .graph {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15%;
 }
 
+
 span {
-	text-align: center;
+        text-align: center;
+}
+
+
+
+
+
+
+header {
+    background-color: #2b1055; /* Dark purple background */
+    padding: 20px 100px;
+  }
+  
+  header .logo {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  header ul li a:hover,
+  header ul li a.active {
+    background-color: #fff;
+    color: #2b1055; /* Dark purple text on hover */
+  }
+
+
+  
+
+
+  main.title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 10%;
+    color: #fff;
+    background: linear-gradient(#1c0522, #2b1055, #1c0522);
+  }
+
+
+  
+  section {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  section > h1 {
+    font-size: 3rem;
+    padding-bottom: 2%;
+  }
+  
+
+
+  .stream-summary {
+    background: linear-gradient(#2b1055, #1c0522); 
+  }
+  .things-that-went-well {
+    background: linear-gradient(#1c0522, #2b1055); 
+  }
+  
+  .areas-of-opportunity {
+    background: linear-gradient(#2b1055, #1c0522); 
+  }
+  
+  .level-of-engagement {
+    background: linear-gradient(#1c0522, #2b1055);
+  }
+  
+  .viewership-status {
+    background: linear-gradient(#2b1055, #1c0522); 
+  }
+  .appendix {
+    background: linear-gradient(#1c0522, #2b1055); 
+  }
+.main title{
+    background: linear-gradient(#1c0522, #2b1055); 
+}
+.banner-area{
+    position: relative;
+    background: linear-gradient(#1c0522, #2b1055); 
+
+
+}
+.banner-area img{
+    width: 100%;
+    position: relative;
+}
+.banner-area p{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 90px;
+    color: #fff;
+
+
 }
